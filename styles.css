@@ -55,12 +55,17 @@ form button {
   cursor: pointer;
 }
 
-.whatsapp a, .redes a {
+.redes a {
   display: inline-block;
   margin: 10px;
   font-size: 18px;
   color: #d32f2f;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.redes a:hover {
+  color: #9c1c1c;
 }
 
 .redes i {
@@ -77,5 +82,4 @@ footer {
 .logo-footer {
   max-width: 80px;
   margin-bottom: 10px;
-
 }
