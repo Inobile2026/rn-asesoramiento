@@ -58,9 +58,13 @@ form button {
 .whatsapp a, .redes a {
   display: inline-block;
   margin: 10px;
+  font-size: 18px;
   color: #d32f2f;
-  font-weight: bold;
   text-decoration: none;
+}
+
+.redes i {
+  margin-right: 8px;
 }
 
 footer {
@@ -73,4 +77,5 @@ footer {
 .logo-footer {
   max-width: 80px;
   margin-bottom: 10px;
+
 }
